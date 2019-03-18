@@ -12,7 +12,7 @@ before_script:
   - npm install -g @angular/cli
 
 script:
-  - ng build --prod --base-href /travis-demo/
+  - ng build --prod --base-href https://rahmanfasalu.github.io/travis-demo/
 
  deploy:
   provider: pages
