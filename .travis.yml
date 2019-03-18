@@ -12,9 +12,7 @@ before_script:
   - npm install -g @angular/cli
 
 script:
-  - ng lint
-  - npm run test-headless
-  - ng build --prod --base-href https://t-palmer.github.io/travis-demo/
+  - ng build --prod --base-href https://rahmanfasalu.github.io/travis-demo/
 
  deploy:
   provider: pages
